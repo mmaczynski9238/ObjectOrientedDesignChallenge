@@ -21,11 +21,10 @@ class Student {
     init() {
         firstName = "Michael"
         lastName = "Maczynski"
-        idNumber = 123456
-        favoriteColor = "White"
-    }
+        
     
-}
+    
+
 
 
 
@@ -33,7 +32,11 @@ class Student {
     /***************************************************
     * Start Your Code Here For Stretch #1
     ***************************************************/
-    
+    idNumber = 123456
+    favoriteColor = "White"
+    }
+
+
     /***************************************************
     * End Your Code Here For Stretch #1
     ***************************************************/
@@ -41,7 +44,17 @@ class Student {
     /***************************************************
     * Start Your Code Here For Stretch #2
     ***************************************************/
-    
+    init(First: String, Last: String, ID: Int, Color: String)
+    {
+        firstName = First
+        lastName = Last
+        idNumber = ID
+        favoriteColor = Color
+        
+
+        
+    }
+}
     /***************************************************
     * End Your Code Here For Stretch #2
     ***************************************************/
@@ -50,7 +63,8 @@ class Student {
     * Start Your Code Here For Stretch #3
     ***************************************************/
     
-    /***************************************************
+
+       /***************************************************
     * End Your Code Here For Stretch #3
     ***************************************************/
 

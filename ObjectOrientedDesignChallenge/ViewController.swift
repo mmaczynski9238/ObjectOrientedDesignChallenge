@@ -41,12 +41,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let color = favoriteColorField.text!
 
         //Uncomment the 5 lines below for Stretch #2
-        //student = Student(  First: first, Last: last, ID: id, Color: color)
+        student = Student(  First: first, Last: last, ID: id, Color: color)
 
-        //myTextView.text =   "First Name: \(student.firstName)\n" +
-        //                    "Last Name: \(student.lastName)\n" +
-        //                    "Id: \(student.idNumber)\n" +
-        //                    "Favorite Color: \(student.favoriteColor)\n"
+        myTextView.text =   "First Name: \(student.firstName)\n" +
+                            "Last Name: \(student.lastName)\n" +
+                            "Id: \(student.idNumber)\n" +
+                            "Favorite Color: \(student.favoriteColor)\n"
 
         firstNameField.resignFirstResponder()
         lastNameField.resignFirstResponder()
